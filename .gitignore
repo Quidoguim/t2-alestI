@@ -42,3 +42,7 @@ replay_pid*
 # Binários ou diretórios de build (opcional)
 bin/
 out/
+
+# Binários ou diretórios de build (opcional)
+bin/
+out/
