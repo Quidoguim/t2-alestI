@@ -1,10 +1,14 @@
+# Implementação
+
+Este projeto implementa uma Árvore Binária de Pesquisa (ABP) em Java, com suporte às operações de inserção, remoção, busca com rastreamento e caminhamentos em pré-ordem, pós-ordem, central (in-ordem) e por largura. A classe principal da aplicação (`App.java`) identifica automaticamente o primeiro arquivo `.txt` válido no diretório (ignorando arquivos de saída) e utiliza seu conteúdo para construir a árvore e executar as operações solicitadas. O arquivo de entrada deve conter uma sequência de números inteiros, um por linha, sendo que as N − 1 primeiras linhas representam os valores a serem inseridos na árvore e a última linha indica a chave a ser buscada. Após a execução, o programa gera os seguintes arquivos de saída: `preordem.txt` (caminhamento em pré-ordem), `posordem.txt` (caminhamento em pós-ordem), `central.txt` (caminhamento central), `largura.txt` (caminhamento em largura) e `resultado.txt` (com as chaves visitadas durante a busca, o total de nós visitados e a indicação de sucesso ou fracasso da busca). Esse processo automatizado permite testar diferentes entradas facilmente, sem necessidade de alteração manual no código.
+
 # Trabalho 2 – Alest 1
 
 Este projeto tem como objetivo implementar uma Árvore Binária de Pesquisa (ABP), com métodos completos e uma aplicação (`App.java`) que realiza operações sobre a árvore com base em dados fornecidos por um arquivo `.txt`.
 
 ## Objetivos
 
-- Implementar todos os métodos da classe `ArvoreBinariaPesquisa`.
+- Implementar todos os métodos da classe `BinarySearchTree`.
 - Utilizar como base o repositório fornecido (clone e continue o desenvolvimento a partir dele).
 - A aplicação deve ser capaz de:
   - Ler um arquivo `.txt` contendo uma sequência de inteiros.
